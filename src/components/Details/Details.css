@@ -1,0 +1,41 @@
+.details {
+  min-height: 300px;
+  padding: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #fff;
+  width: 300px;
+}
+
+.details--empty,
+.details--loading {
+  color: #555;
+}
+
+.details--error {
+  color: #b42318;
+  background: #ffe7e7;
+}
+
+.details__avatar {
+  display: block;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.details__name {
+  margin: 0 0 16px;
+}
+
+.details__row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.details__label {
+  font-weight: 700;
+}

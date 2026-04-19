@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "bradlc.vscode-tailwindcss",
+    "vivaxy.vscode-conventional-commits",
+
+    // React
+    "dsznajder.es7-react-js-snippets",
+
+    // TypeScript
+    "ms-vscode.vscode-typescript-next"
+  ]
+}
