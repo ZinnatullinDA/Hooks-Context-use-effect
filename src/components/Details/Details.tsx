@@ -94,12 +94,14 @@ export default function Details({ info }: DetailsProps) {
     return null
   }
 
+  const avatarSrc = `${userInfo.avatar}${userInfo.avatar.includes('?') ? '&' : '?'}user=${userInfo.id}`
+
   return (
     <div className="details">
       <img
         alt={userInfo.name}
         className="details__avatar"
-        src={userInfo.avatar}
+        src={avatarSrc}
       />
 
       <h3 className="details__name">
